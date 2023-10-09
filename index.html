@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/style/style.css" />
+  <link rel="stylesheet" href="/style/responsiveness.css">
+  <title>MSports</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar_up">
+      <i class="fa-solid fa-paper-plane"></i>
+      <p>
+        Entrega grátis para todo o brasil
+      </p>
+    </div>
+
+    <nav class="navbar">
+      <div id="logo">
+        <a href="index.html" ">
+            <h1>
+            MSPORTS
+          </h1>
+        </a>
+      </div>
+
+      <ul class=" first_ul">
+          <li>
+            <a href="#" onclick="showSearchButton()">
+              <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            </a>
+          </li>
+          <li>
+            <a id="truck_icon" href="#">
+              <i class="fa-solid fa-truck" style="color: #FFFFFF"></i>
+            </a>
+          </li>
+          <li>
+            <a id="user_icon" href="#">
+              <i class="fa-regular fa-circle-user" style="color: #ffffff;"></i>
+            </a>
+          </li>
+          <li>
+            <a id="cart_icon" href="#">
+              <i class="fa-solid fa-cart-shopping" style="color: #FFFFFF;"></i>
+            </a>
+          </li>
+          </ul>
+
+          <div class="menu_sandwich" onclick="toggleMenu()">
+            <div class="barra"></div>
+            <div class="barra"></div>
+            <div class="barra"></div>
+          </div>
+
+    </nav>
+
+    <div class="menu">
+      <div>
+        <a href="#" onclick="showSearchButton()">
+          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+        </a>
+      </div>
+      <div>
+        <a id="truck_icon" href="#" onclick="showLoginModal()">
+          <i class="fa-solid fa-truck" style="color: #FFFFFF"></i>
+        </a>
+      </div>
+      <div>
+        <a id="user_icon" href="#" onclick="showLoginModal()">
+          <i class="fa-regular fa-circle-user" style="color: #ffffff;"></i>
+        </a>
+      </div>
+      <div>
+        <a id="cart_icon" href="#" onclick="showCart()">
+          <i " class=" fa-solid fa-cart-shopping" style="color: #FFFFFF;"></i>
+        </a>
+      </div>
+    </div>
+
+    <div id="search_input">
+      <div class="search">
+        <input onkeyup="filter()" type="text" class="search_term" placeholder="O que você está buscando?">
+        <button type="submit" class="search_button" onclick="toggleSearch()">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <ul id="products_list_filter" onclick="toggleSearch()">
+
+      </ul>
+    </div>
+
+  </header>
+
+
+  <main>
+    <div class="carousel imagem_vignette">
+      <img class="carousel_image carousel_active" src="/assets/banner/banner1.png">
+      <img class="carousel_image" src="/assets/banner/banner2.png">
+      <img class="carousel_image" src="/assets/banner/banner3.png">
+    </div>
+
+    <div class="carousel_buttons">
+      <button class="carousel_button button_active"></button>
+      <button class="carousel_button"></button>
+      <button class="carousel_button"></button>
+    </div>
+
+    <div class="container_qualitys">
+      <div class="unique_quality">
+        <div class="icons_quality">
+          <i><img src="assets/icon/delivery.png"></i>
+        </div>
+        <div class="text_quality">
+          <p>Frete grátis <br> para todo o Brasil</p>
+        </div>
+      </div>
+      <div class="unique_quality">
+        <div class="icons_quality">
+          <i><img src="assets/icon/shirt.png"></i>
+        </div>
+        <div class="text_quality">
+          <p>Personalize <br> do seu jeito</p>
+        </div>
+      </div>
+      <div class="unique_quality">
+        <div class="icons_quality">
+          <i><img src="assets/icon/credit-card.png"></i>
+        </div>
+        <div class="text_quality">
+          <p>Parcele em até <br> 12x vezes no cartão</p>
+        </div>
+      </div>
+      <div class="unique_quality">
+        <div class="icons_quality">
+          <i><img src="assets/icon/pix.png"></i>
+        </div>
+        <div class="text_quality">
+          <p>Desconto no <br> pagamento à vista</p>
+        </div>
+      </div>
+      <div class="unique_quality">
+        <div class="icons_quality">
+          <i><img src="assets/icon/security.png"></i>
+        </div>
+        <div class="text_quality">
+          <p>Plataforma <br> 100% segura</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="title_wrapper">
+      <h1 class="titles_generic" id="first_title">News</h1>
+    </div>
+
+    <div id="new_product_area">
+      <div id="inner_container_new">
+
+      </div>
+    </div>
+
+
+    <div class="title_wrapper">
+      <h1 class="titles_generic">All</h1>
+    </div>
+    <div id="products_area">
+      <div id="inner_container_products">
+
+      </div>
+    </div>
+
+    <div class="read_more_box">
+      <div id="read_more">
+        Ver mais
+      </div>
+    </div>
+
+  </main>
+
+  <div class="wpp_box">
+    <div class="wpp"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+5581982767790&text=Ol%C3%A1%21"><img
+          src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png"></a>
+    </div>
+  </div>
+
+  <div id="cart_modal" class="slide_element">
+    <div class="cart_header">
+      <div>
+        <i id="cart_closer" class="fa-solid fa-chevron-right"></i>
+      </div>
+      <div>
+        <h2>Cart</h2>
+      </div>
+    </div>
+    <div class="cart_content">
+      <div class="cart_itens">
+
+      </div>
+      <div class="total_price">
+
+      </div>
+
+      <div id="cart_checkout">
+        <button id="button_checkout">Continuar</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="login_modal">
+    <div class="login_modal_closer">X</div>
+    <h2>Criar conta</h2>
+    <div class="login_cadaster_modal_content">
+
+      <div id="cadaster_modal_content">
+
+        <form>
+
+          <h3>Nome<span>*</span></h3>
+          <input type="text" required>
+          <h3>Email<span>*</span></h3>
+          <input type="email" required>
+          <h3>Número<span>*</span></h3>
+          <input type="tel" required>
+          <h3>Senha<span>*</span></h3>
+          <input type="password" required>
+
+          <div id="cadaster_modal_terms">
+            <input type="checkbox" required checked>
+            <h4>
+              <span>Concordo com os termos e condições </span>
+              <br>
+              <span class="terms_outline">Ver termos de uso</span>
+            </h4>
+          </div>
+
+          <button id="btn_create_account" type="submit">Criar conta</button>
+
+        </form>
+
+      </div>
+
+      <div class="divisor_modal">
+
+      </div>
+
+      <div id="login_modal_content">
+        <h3>Já é cadastrado? <span>ACESSAR</span></h3>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="overlay" id="dark_overlay"></div>
+
+  <footer></footer>
+
+  <script src="script/index.js"></script>
+</body>
+
+</html>

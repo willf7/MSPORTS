@@ -1,0 +1,496 @@
+@media (max-width: 1024px) {
+
+    #inner_container_new,
+    #inner_container_products,
+    .inner_container {
+        width: calc(3 * (16rem + 1rem));
+    }
+
+    .titles_generic::after {
+        content: "";
+        flex-grow: 1;
+        height: 2px;
+        background-color: rgb(145, 153, 145);
+        width: 42rem;
+    }
+
+
+    #first_title {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #first_title::after {
+        margin-left: 1.2rem;
+        width: 38rem;
+    }
+
+}
+
+@media (max-width: 879px) {
+
+    #inner_container_new,
+    #inner_container_products,
+    .inner_container {
+        width: calc(2 * (16rem + 1rem));
+    }
+
+    .titles_generic::after {
+        content: "";
+        flex-grow: 1;
+        height: 2px;
+        background-color: rgb(145, 153, 145);
+        width: 24rem;
+    }
+
+    #first_title::after {
+        margin-left: 1rem;
+        width: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #inner_container_new,
+    #inner_container_products,
+    .inner_container {
+        width: calc(2 * (16rem + 1rem));
+    }
+
+    .titles_generic::after {
+        content: "";
+        flex-grow: 1;
+        height: 2px;
+        background-color: rgb(145, 153, 145);
+        width: 24rem;
+    }
+
+    #first_title::after {
+        margin-left: 1rem;
+        width: 20rem;
+    }
+
+    .unique_quality {
+        margin-left: .2rem;
+        margin-right: 10px;
+    }
+
+    .icons_quality {
+        margin-right: 0;
+    }
+
+    .icons_quality i img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .text_quality p {
+        font-size: 10px;
+    }
+
+    #login_modal {
+        width: 44rem
+    }
+
+    #login_modal_content h3 {
+        padding-left: 3.5rem;
+        padding-right: auto;
+    }
+
+    #cadaster_modal_content {
+        margin-right: 2rem;
+    }
+
+    #cadaster_modal_content input {
+        width: 18rem;
+    }
+
+    #cadaster_modal_terms {
+        width: 1rem;
+    }
+
+    #cadaster_modal_terms h4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cadaster_modal_terms h4 span:last-child {
+        width: 20rem;
+    }
+
+    #cadaster_modal_terms h4 br {
+        display: none
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+
+    #products_list_filter {
+        width: 21rem;
+    }
+
+    .menu_sandwich.active .barra:nth-child(1) {
+        transform: translateY(10px) rotate(-45deg);
+    }
+
+    .menu_sandwich.active .barra:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu_sandwich.active .barra:nth-child(3) {
+        transform: translateY(-8px) rotate(45deg);
+    }
+
+    #inner_container_new,
+    #inner_container_products,
+    .inner_container {
+        justify-content: center;
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .navbar> :first-child {
+        margin-left: 0;
+    }
+
+    .container_qualitys {
+        display: none;
+    }
+
+    .titles_generic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titles_generic::after {
+        width: 0;
+    }
+
+    #first_title::after {
+        margin-left: 1rem;
+        width: 0;
+    }
+
+    #login_modal {
+        width: 26rem
+    }
+
+    .divisor_modal {
+        display: none;
+    }
+
+    .login_cadaster_modal_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #login_modal_content {
+        margin-top: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 0;
+        font-size: 10px;
+    }
+
+    #login_modal_content h3 {
+        padding: 0;
+    }
+
+    #login_modal h2 {
+        margin-left: 3rem;
+    }
+
+    #btn_create_account {
+        display: block;
+        margin-right: auto;
+        margin-left: 4.2rem;
+    }
+
+    .products_search h2 {
+        text-align: center;
+    }
+
+    #cart_modal {
+        width: 100%;
+    }
+
+    .cart_header h2 {
+        display: block;
+        margin-right: auto;
+        margin-left: 3.1rem
+    }
+
+    .cart_item {
+        justify-content: center;
+    }
+
+    .total_price {
+        margin-left: 4.3rem;
+    }
+
+    #button_checkout {
+        margin-left: 3.6rem;
+    }
+
+    .cart_header h2 {
+        margin: 0;
+    }
+
+    .cart_content {
+        padding-left: 0;
+    }
+
+    .product_single {
+        margin-right: 0;
+    }
+
+    .products_search h2 {
+        margin-bottom: 0;
+        letter-spacing: .2rem;
+    }
+
+    .product_search_item {
+        margin-right: 0;
+    }
+
+    #first_title::after {
+        display: none;
+    }
+
+    .first_ul {
+        margin: 0;
+    }
+
+    .carousel_buttons .carousel_button {
+        background-color: transparent;
+        border-radius: 1.5rem;
+        width: 1.5rem;
+        height: .2rem;
+        border: 2px solid transparent;
+        border-color: #8a8a87;
+    }
+
+    .carousel_buttons {
+        bottom: 1rem;
+    }
+
+    .wpp_box img {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    #login_modal {
+        width: 22rem;
+        height: 80%;
+    }
+
+    #login_modal h2 {
+        margin-left: -.1rem;
+    }
+
+    #login_modal_content h3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cadaster_modal_content #btn_create_account {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #cadaster_modal_content form input {
+        width: 13rem;
+    }
+
+    #cadaster_modal_terms h4 span {
+        width: 11rem;
+        font-size: .8rem;
+    }
+
+    #cadaster_modal_content {
+        margin: 0;
+    }
+
+    #search_input {
+        width: 21rem;
+    }
+
+    .carousel img {
+        height: 10rem;
+        object-fit: fill;
+    }
+
+    .menu_sandwich {
+        width: 26px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .navbar> :last-child {
+        margin-right: 0;
+    }
+
+    .barra {
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .menu div {
+        width: 100%;
+    }
+
+    .menu div a {
+        font-size: 1.2rem;
+    }
+
+    .menu div a i {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .menu div {
+        border-bottom: 1px solid #FFFFFF;
+        padding: 10px 0;
+    }
+
+    .menu div:last-child {
+        border-bottom: none;
+    }
+
+    .menu a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 0;
+    }
+
+    .first_ul {
+        display: none;
+    }
+
+}
+
+@media (max-width: 620px) {
+    .container_qualitys {
+        display: none;
+    }
+}
+
+@media (max-width: 545px) {
+    #inner_container_new {
+        display: flex;
+        justify-content: center;
+        width: 17rem;
+
+    }
+
+    #products_area {
+        margin: 0 2rem 2rem 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #inner_container_products {
+        display: flex;
+        justify-content: center;
+        width: 17rem;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .cart_header h2 {
+        margin-left: -1.5rem;
+    }
+
+    .cart_itens {
+        padding-right: 0;
+    }
+
+    #button_checkout {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .total_price p {
+        margin-left: -2.2rem
+    }
+
+    .first_ul {
+        display: none;
+    }
+
+    #search_input {
+        width: 18rem;
+    }
+
+    #login_modal {
+        width: 18rem;
+        height: 98%;
+    }
+
+    #login_modal h2 {
+        margin-left: 2rem;
+    }
+
+    #login_modal_content h3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cadaster_modal_content #btn_create_account {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #cadaster_modal_content form input {
+        width: 10rem;
+    }
+
+    #cadaster_modal_terms h4 span {
+        width: 9rem;
+        font-size: .777rem;
+    }
+
+    #products_list_filter {
+        width: 18rem;
+    }
+
+    .carousel img {
+        height: 8rem;
+    }
+
+}
