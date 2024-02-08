@@ -86,26 +86,6 @@ header ul li {
     color: #0F6657;
 }
 
-@keyframes bounceAnimation {
-
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        transform: translateY(0);
-    }
-
-    40% {
-        transform: translateY(-10px);
-        color: rgb(24, 187, 24);
-    }
-
-    60% {
-        transform: translateY(-5px);
-    }
-}
-
 .bounce {
     animation: bounceAnimation 1s;
 }
@@ -884,6 +864,26 @@ div i img {
 }
 
 /* KEYFRAMES */
+
+@keyframes bounceAnimation {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+        color: rgb(24, 187, 24);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
 
 @keyframes pulse {
     0% {
