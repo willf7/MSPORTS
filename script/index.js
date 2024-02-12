@@ -1,7 +1,7 @@
-const items = [
+let items = [
   {
     id: 0,
-    name: "Camisa Palmeiras - 14/15",
+    nome: "Camisa Palmeiras - 14/15",
     img: "assets/img/palmeiras/1.jpg",
     img2: "assets/img/palmeiras/1-2.jpg",
     quantidade: 0,
@@ -9,7 +9,7 @@ const items = [
   },
   {
     id: 1,
-    name: "Camisa Palmeiras I - 22/23",
+    nome: "Camisa Palmeiras I - 22/23",
     img: "assets/img/palmeiras/2.jpg",
     img2: "assets/img/palmeiras/2-2.jpg",
     quantidade: 0,
@@ -17,7 +17,7 @@ const items = [
   },
   {
     id: 2,
-    name: "Camisa Palmeiras I - 21/22",
+    nome: "Camisa Palmeiras I - 21/22",
     img: "assets/img/palmeiras/3.jpg",
     img2: "assets/img/palmeiras/3-2.jpeg",
     quantidade: 0,
@@ -25,7 +25,7 @@ const items = [
   },
   {
     id: 3,
-    name: "Camisa Palmeiras - 2009",
+    nome: "Camisa Palmeiras - 2009",
     img: "assets/img/palmeiras/4.jpg",
     img2: "assets/img/palmeiras/4-2.jpeg",
     quantidade: 0,
@@ -33,7 +33,7 @@ const items = [
   },
   {
     id: 4,
-    name: "Camisa Palmeiras II - 23/24",
+    nome: "Camisa Palmeiras II - 23/24",
     img: "assets/img/palmeiras/5.jpg",
     img2: "assets/img/palmeiras/5-2.jpg",
     quantidade: 0,
@@ -41,7 +41,7 @@ const items = [
   },
   {
     id: 5,
-    name: "Camisa Palmeiras II - 22/23",
+    nome: "Camisa Palmeiras II - 22/23",
     img: "assets/img/palmeiras/6.jpg",
     img2: "assets/img/palmeiras/6-2.jpg",
     quantidade: 0,
@@ -49,7 +49,7 @@ const items = [
   },
   {
     id: 6,
-    name: "Camisa Palmeiras I - 23/24",
+    nome: "Camisa Palmeiras I - 23/24",
     img: "assets/img/palmeiras/7.jpg",
     img2: "assets/img/palmeiras/7-2.jpg",
     quantidade: 0,
@@ -58,7 +58,7 @@ const items = [
   },
   {
     id: 7,
-    name: "Camisa Palmeiras 1951 - 21/22",
+    nome: "Camisa Palmeiras 1951 - 21/22",
     img: "assets/img/palmeiras/8.jpg",
     img2: "assets/img/palmeiras/8-2.jpg",
     quantidade: 0,
@@ -66,7 +66,7 @@ const items = [
   },
   {
     id: 8,
-    name: "Camisa Palmeiras - 23/24",
+    nome: "Camisa Palmeiras - 23/24",
     img: "assets/img/palmeiras/9.jpg",
     img2: "assets/img/palmeiras/9-2.jpeg",
     quantidade: 0,
@@ -74,7 +74,7 @@ const items = [
   },
   {
     id: 9,
-    name: "Camisa Palmeiras II - 23/24",
+    nome: "Camisa Palmeiras II - 23/24",
     img: "assets/img/palmeiras/10.jpeg",
     img2: "assets/img/palmeiras/10-2.jpeg",
     quantidade: 0,
@@ -82,7 +82,7 @@ const items = [
   },
   {
     id: 10,
-    name: "Camisa Vasco III - 22/23",
+    nome: "Camisa Vasco III - 22/23",
     img: "assets/img/vasco/1.jpg",
     img2: "assets/img/vasco/1-2.jpg",
     quantidade: 0,
@@ -91,7 +91,7 @@ const items = [
   },
   {
     id: 11,
-    name: "Camisa Vasco II - 22/23",
+    nome: "Camisa Vasco II - 22/23",
     img: "assets/img/vasco/2.jpg",
     img2: "assets/img/vasco/2-2.jpg",
     quantidade: 0,
@@ -99,7 +99,7 @@ const items = [
   },
   {
     id: 12,
-    name: "Camisa Vasco Retrô - 2000",
+    nome: "Camisa Vasco Retrô - 2000",
     img: "assets/img/vasco/3.jpg",
     img2: "assets/img/vasco/3-2.jpg",
     quantidade: 0,
@@ -107,7 +107,7 @@ const items = [
   },
   {
     id: 13,
-    name: "Camisa Vasco Retrô - 1999",
+    nome: "Camisa Vasco Retrô - 1999",
     img: "assets/img/vasco/4.jpg",
     img2: "assets/img/vasco/4-2.jpg",
     quantidade: 0,
@@ -115,7 +115,7 @@ const items = [
   },
   {
     id: 14,
-    name: "Camisa Vasco - 21/22",
+    nome: "Camisa Vasco - 21/22",
     img: "assets/img/vasco/5.jpg",
     img2: "assets/img/vasco/5-2.jpg",
     quantidade: 0,
@@ -123,7 +123,7 @@ const items = [
   },
   {
     id: 15,
-    name: "Camisa CAM II - 22/23",
+    nome: "Camisa CAM II - 22/23",
     img: "assets/img/atletico/1.jpg",
     img2: "assets/img/atletico/1-2.jpg",
     quantidade: 0,
@@ -131,7 +131,7 @@ const items = [
   },
   {
     id: 16,
-    name: "Camisa CAM Retrô - 16/17",
+    nome: "Camisa CAM Retrô - 16/17",
     img: "assets/img/atletico/2.jpg",
     img2: "assets/img/atletico/2-2.jpg",
     quantidade: 0,
@@ -139,7 +139,7 @@ const items = [
   },
   {
     id: 17,
-    name: "Camisa CAM I - 22/23",
+    nome: "Camisa CAM I - 22/23",
     img: "assets/img/atletico/3.jpg",
     img2: "assets/img/atletico/3-2.jpg",
     quantidade: 0,
@@ -147,7 +147,7 @@ const items = [
   },
   {
     id: 18,
-    name: "Camisa CAM III - 22/23",
+    nome: "Camisa CAM III - 22/23",
     img: "assets/img/atletico/4.jpg",
     img2: "assets/img/atletico/4-2.jpeg",
     quantidade: 0,
@@ -155,7 +155,7 @@ const items = [
   },
   {
     id: 19,
-    name: "Camisa CAM MRV - 22/23",
+    nome: "Camisa CAM MRV - 22/23",
     img: "assets/img/atletico/5.jpg",
     img2: "assets/img/atletico/5-2.jpg",
     quantidade: 0,
@@ -163,7 +163,7 @@ const items = [
   },
   {
     id: 20,
-    name: "Camisa Grêmio II - 23/24",
+    nome: "Camisa Grêmio II - 23/24",
     img: "assets/img/gremio/1.jpg",
     img2: "assets/img/gremio/1-2.jpg",
     quantidade: 0,
@@ -171,7 +171,7 @@ const items = [
   },
   {
     id: 21,
-    name: "Camisa Grêmio I - 23/24",
+    nome: "Camisa Grêmio I - 23/24",
     img: "assets/img/gremio/2.jpg",
     img2: "assets/img/gremio/2-2.jpeg",
     quantidade: 0,
@@ -179,7 +179,7 @@ const items = [
   },
   {
     id: 22,
-    name: "Camisa Grêmio II - 22/23",
+    nome: "Camisa Grêmio II - 22/23",
     img: "assets/img/gremio/3.jpg",
     img2: "assets/img/gremio/3-2.jpg",
     quantidade: 0,
@@ -187,7 +187,7 @@ const items = [
   },
   {
     id: 23,
-    name: "Camisa Grêmio Treino - 22/23",
+    nome: "Camisa Grêmio Treino - 22/23",
     img: "assets/img/gremio/4.jpg",
     img2: "assets/img/gremio/4-2.jpg",
     quantidade: 0,
@@ -195,7 +195,7 @@ const items = [
   },
   {
     id: 24,
-    name: "Camisa Grêmio Rêtro I - 2000",
+    nome: "Camisa Grêmio Rêtro I - 2000",
     img: "assets/img/gremio/5.jpg",
     img2: "assets/img/gremio/5-2.jpg",
     quantidade: 0,
@@ -203,7 +203,7 @@ const items = [
   },
   {
     id: 25,
-    name: "Camisa Al-Nassr II - 23/24",
+    nome: "Camisa Al-Nassr II - 23/24",
     img: "assets/img/al_nassr/1.jpg",
     img2: "assets/img/al_nassr/1-2.jpg",
     new: true,
@@ -212,7 +212,7 @@ const items = [
   },
   {
     id: 26,
-    name: "Camisa Al-Nassr I - 23/24",
+    nome: "Camisa Al-Nassr I - 23/24",
     img: "assets/img/al_nassr/2.jpg",
     img2: "assets/img/al_nassr/2-2.jpg",
     quantidade: 0,
@@ -220,7 +220,7 @@ const items = [
   },
   {
     id: 27,
-    name: "Camisa Barcelona II - 21/22",
+    nome: "Camisa Barcelona II - 21/22",
     img: "assets/img/barcelona/1.jpg",
     img2: "assets/img/barcelona/1-2.jpg",
     quantidade: 0,
@@ -228,7 +228,7 @@ const items = [
   },
   {
     id: 28,
-    name: "Camisa Barcelona I - 23/24",
+    nome: "Camisa Barcelona I - 23/24",
     img: "assets/img/barcelona/2.jpg",
     img2: "assets/img/barcelona/2-2.jpg",
     quantidade: 0,
@@ -236,7 +236,7 @@ const items = [
   },
   {
     id: 29,
-    name: "Camisa Bayern I - 23/24",
+    nome: "Camisa Bayern I - 23/24",
     img: "assets/img/bayern_munique/1.jpg",
     img2: "assets/img/bayern_munique/1-2.jpg",
     quantidade: 0,
@@ -244,7 +244,7 @@ const items = [
   },
   {
     id: 30,
-    name: "Camisa Bayern II - 23/24",
+    nome: "Camisa Bayern II - 23/24",
     img: "assets/img/bayern_munique/2.jpg",
     img2: "assets/img/bayern_munique/2-2.jpg",
     quantidade: 0,
@@ -252,7 +252,7 @@ const items = [
   },
   {
     id: 31,
-    name: "Camisa Borussia I - 23/24",
+    nome: "Camisa Borussia I - 23/24",
     img: "assets/img/borussia_dortmund/1.jpg",
     img2: "assets/img/borussia_dortmund/1-2.jpg",
     quantidade: 0,
@@ -260,7 +260,7 @@ const items = [
   },
   {
     id: 32,
-    name: "Camisa Borussia - 23/24",
+    nome: "Camisa Borussia - 23/24",
     img: "assets/img/borussia_dortmund/2.jpg",
     img2: "assets/img/borussia_dortmund/2-2.jpg",
     quantidade: 0,
@@ -268,7 +268,7 @@ const items = [
   },
   {
     id: 33,
-    name: "Camisa Flamengo II - 23/24",
+    nome: "Camisa Flamengo II - 23/24",
     img: "assets/img/flamengo/1.jpg",
     img2: "assets/img/flamengo/1-2.jpg",
     quantidade: 0,
@@ -277,7 +277,7 @@ const items = [
   },
   {
     id: 34,
-    name: "Camisa Flamengo I - 23/24",
+    nome: "Camisa Flamengo I - 23/24",
     img: "assets/img/flamengo/2.jpg",
     img2: "assets/img/flamengo/2-2.jpg",
     quantidade: 0,
@@ -285,7 +285,7 @@ const items = [
   },
   {
     id: 35,
-    name: "Camisa Inter Miami I - 23/24",
+    nome: "Camisa Inter Miami I - 23/24",
     img: "assets/img/inter_miami/1.jpg",
     img2: "assets/img/inter_miami/1-2.jpg",
     quantidade: 0,
@@ -294,7 +294,7 @@ const items = [
   },
   {
     id: 36,
-    name: "Camisa Inter Miami II - 23/24",
+    nome: "Camisa Inter Miami II - 23/24",
     img: "assets/img/inter_miami/2.jpg",
     img2: "assets/img/inter_miami/2-2.jpg",
     quantidade: 0,
@@ -302,7 +302,7 @@ const items = [
   },
   {
     id: 37,
-    name: "Camisa Man. City - 23/24",
+    nome: "Camisa Man. City - 23/24",
     img: "assets/img/manchester_city/1.jpg",
     img2: "assets/img/manchester_city/1-2.jpg",
     quantidade: 0,
@@ -311,7 +311,7 @@ const items = [
   },
   {
     id: 38,
-    name: "Camisa Man. City II - 21/22",
+    nome: "Camisa Man. City II - 21/22",
     img: "assets/img/manchester_city/2.jpg",
     img2: "assets/img/manchester_city/2-2.jpg",
     quantidade: 0,
@@ -319,7 +319,7 @@ const items = [
   },
   {
     id: 39,
-    name: "Camisa Man. United II - 23/24",
+    nome: "Camisa Man. United II - 23/24",
     img: "assets/img/manchester_united/1.jpg",
     img2: "assets/img/manchester_united/1-2.jpg",
     quantidade: 0,
@@ -327,7 +327,7 @@ const items = [
   },
   {
     id: 40,
-    name: "Camisa Man. United III - 23/24",
+    nome: "Camisa Man. United III - 23/24",
     img: "assets/img/manchester_united/2.jpg",
     img2: "assets/img/manchester_united/2-2.jpg",
     quantidade: 0,
@@ -335,7 +335,7 @@ const items = [
   },
   {
     id: 41,
-    name: "Camisa Real Madrid I - 22/23",
+    nome: "Camisa Real Madrid I - 22/23",
     img: "assets/img/real_madrid/1.jpg",
     img2: "assets/img/real_madrid/1-2.jpg",
     quantidade: 0,
@@ -343,7 +343,7 @@ const items = [
   },
   {
     id: 42,
-    name: "Camisa Real Madrid I - 23/24",
+    nome: "Camisa Real Madrid I - 23/24",
     img: "assets/img/real_madrid/2.jpg",
     img2: "assets/img/real_madrid/2-2.jpg",
     quantidade: 0,
@@ -352,7 +352,7 @@ const items = [
   },
   {
     id: 43,
-    name: "Camisa São Paulo I - 22/23",
+    nome: "Camisa São Paulo I - 22/23",
     img: "assets/img/sao_paulo/1.jpg",
     img2: "assets/img/sao_paulo/1-2.jpg",
     quantidade: 0,
@@ -360,7 +360,7 @@ const items = [
   },
   {
     id: 44,
-    name: "Camisa São Paulo 23/24",
+    nome: "Camisa São Paulo 23/24",
     img: "assets/img/sao_paulo/2.jpg",
     img2: "assets/img/sao_paulo/2-2.jpg",
     quantidade: 0,
@@ -368,7 +368,7 @@ const items = [
   },
   {
     id: 45,
-    name: "Camisa Al Hilal 23/24",
+    nome: "Camisa Al Hilal 23/24",
     img: "assets/img/al_hilal/1.jpeg",
     img2: "assets/img/al_hilal/1-2.jpeg",
     new: true,
@@ -377,7 +377,7 @@ const items = [
   },
   {
     id: 46,
-    name: "Camisa Al Hilal Home 23/24",
+    nome: "Camisa Al Hilal Home 23/24",
     img: "assets/img/al_hilal/2.jpeg",
     img2: "assets/img/al_hilal/2-2.jpeg",
     quantidade: 0,
@@ -385,7 +385,7 @@ const items = [
   },
   {
     id: 47,
-    name: "Camisa Sporting 23/24",
+    nome: "Camisa Sporting 23/24",
     img: "assets/img/sporting/1.jpeg",
     img2: "assets/img/sporting/1-2.jpeg",
     quantidade: 0,
@@ -431,21 +431,22 @@ bootShop = () => {
   let productCount = 0;
   let productArea = document.getElementById("inner_container_products");
   let productAreaNew = document.getElementById("inner_container_new");
+  let cartItens = document.querySelector(".cart_itens");
 
-  items.map((val) => {
-    if (val.new == true) {
+  items.map((item) => {
+    if (item.new === true) {
       productAreaNew.innerHTML += `
                 <div class="product_single product_single_new">
-                <img src="${val.img}" class="product_img" data-hover-src="${
-        val.img2
+                <img src="${item.img}" class="product_img" data-hover-src="${
+        item.img2
       }" />
-                    <p>${val.name}</p>
+                    <p>${item.nome}</p>
                     <div class= "product_vals">
                         <h3 class="reais">R$</h3>
-                        <h3>${val.valor.toFixed(2)}</h3>
+                        <h3>${item.valor.toFixed(2)}</h3>
                         <p>R$349,00</p>
                     </div>
-                <a key="${val.id}" href="#" class="cart_add">
+                <a key="${item.id}" href="#" class="cart_add">
                 <i class="fa-solid fa-cart-plus" style="color: #ffffff;  "></i>
             Adicionar</a>
             </div> 
@@ -455,21 +456,23 @@ bootShop = () => {
             <div class="product_single ${
               productCount >= 4 ? "hidden_product" : ""
             }">
-                <img src="${val.img}" class="product_img" data-hover-src="${
-      val.img2
+                <img src="${item.img}" class="product_img" data-hover-src="${
+      item.img2
     }" />
-                <p>${val.name}</p>
+                <p>${item.nome}</p>
                 <div class= "product_vals">
                     <h3 class="reais">R$</h3>
-                    <h3>${val.valor.toFixed(2)}</h3>
+                    <h3>${item.valor.toFixed(2)}</h3>
                     <p>R$349,00</p>
                 </div>
-                <a key="${val.id}" href="#" class="cart_add">
+                <a key="${item.id}" href="#" class="cart_add">
                 <i class="fa-solid fa-cart-plus" style="color: #ffffff;"></i>Adicionar</a>
             </div>
         `;
     productCount++;
   });
+
+  /* ADD EFFECT MOUSEOUT IN PRODUCTS */
 
   document.addEventListener("DOMContentLoaded", function () {
     const productImages = document.querySelectorAll(".product_img");
@@ -508,7 +511,234 @@ bootShop = () => {
     }
   });
 
+  function loadCartFromLocalStorage() {
+    let itemsStored = localStorage.getItem("cartItems");
+    if (itemsStored) {
+      items = JSON.parse(itemsStored);
+    }
+    updateCart();
+  }
+
+  function updateCart() {
+    let cartItens = document.querySelector(".cart_itens");
+    let cartTotal = document.querySelector(".total_price");
+    let valorTotal = 0;
+
+    cartItens.innerHTML = "";
+    cartTotal.innerHTML = "";
+
+    let cartItems = [];
+
+    items.map((item) => {
+      if (item && item.quantidade > 0) {
+        cartItems.push(item);
+
+        const checkoutBtn = document.getElementById("cart_checkout");
+
+        if (cartItems && cartItems.length > 0) {
+          if (checkoutBtn && cartTotal) {
+            checkoutBtn.style.display = "block";
+            cartTotal.style.display = "block";
+          }
+        }
+
+        cartItens.innerHTML += `
+              <div class="cart_item" id="${item.id}">
+                  <img src="${item.img}"></img>
+                  <div class="cart_item_texts">
+                      <div class="cart_item_nome">
+                          <h3>${item.nome}</h3>
+                          <div class="clear_product" data-id="${item.id}" >
+                              <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                          </div>
+                      </div>
+  
+                      <div class="cart_item_value">
+                          <h3>R$${item.valor.toFixed(2)}</h3>
+                      </div>
+  
+                      <div class="cart_item_quantity">
+                          <button class="quantity_btn decrease" data-id="${
+                            item.id
+                          }">-</button>
+                          <p class="quantity_value">${item.quantidade}</p>
+                          <button class="quantity_btn increase" data-id="${
+                            item.id
+                          }">+</button>
+                      </div>
+                  </div>
+              </div>
+              <br>
+          `;
+      }
+      valorTotal += item.valor * item.quantidade;
+    });
+
+    cartTotal.innerHTML += `<p>Subtotal <br> R$${valorTotal.toFixed(2)}</p>`;
+
+    if (
+      valorTotal <= 0 ||
+      !cartItemsLocalStorage ||
+      (cartItemsLocalStorage && cartItemsLocalStorage.length == 0)
+    ) {
+      const checkoutBtn = document.getElementById("cart_checkout");
+      checkoutBtn.style.display = "none";
+      cartTotal.style.display = "none";
+    }
+
+    localStorage.setItem("cartItems", JSON.stringify(items));
+
+    document.querySelectorAll(".increase").forEach((btn) => {
+      btn.addEventListener("click", (event) => {
+        let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
+        items[itemId].quantidade++;
+        let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
+        cartItemsLocalStorage.forEach((i) => {
+          if (items[itemId].nome === i.nome) {
+            i.quantidade++;
+            i.valor += items[itemId].valor;
+          }
+        });
+        localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
+        updateCart();
+      });
+    });
+
+    document.querySelectorAll(".decrease").forEach((btn) => {
+      btn.addEventListener("click", (event) => {
+        let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
+        items[itemId].quantidade--;
+        let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
+        cartItemsLocalStorage.forEach((i) => {
+          if (items[itemId].nome === i.nome) {
+            i.quantidade--;
+            i.valor -= items[itemId].valor;
+            if (i.quantidade <= 0) {
+              cartItemsLocalStorage = cartItemsLocalStorage.filter(
+                (i) => items[itemId].nome !== i.nome
+              );
+            }
+          }
+        });
+        localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
+        updateCart();
+      });
+    });
+
+    document.querySelectorAll(".clear_product").forEach((btn) => {
+      btn.addEventListener("click", (event) => {
+        let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
+        items[itemId].quantidade = 0;
+        let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
+        cartItemsLocalStorage = cartItemsLocalStorage.filter(
+          (i) => items[itemId].nome !== i.nome
+        );
+        localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
+        updateCart();
+      });
+    });
+  }
+
+  /* LOADED WINDOW */
+
+  window.onload = updateCart;
+  window.onload = loadCartFromLocalStorage;
+
   /* ADD TO CART */
+
+  let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
+
+  if (
+    !cartItemsLocalStorage ||
+    (cartItemsLocalStorage && cartItemsLocalStorage.length > 0)
+  ) {
+    const checkoutBtn = document.getElementById("cart_checkout");
+    checkoutBtn.style.display = "block";
+  }
+
+  if (cartItemsLocalStorage) {
+    cartItemsLocalStorage.map((item) => {
+      cartItens.innerHTML += `
+            <div class="cart_item" id="${item.id}">
+                <img src="${item.img}"></img>
+                <div class="cart_item_texts">
+                    
+
+                    <div class="cart_item_nome">
+                        <h3>${item.nome}</h3>
+                        <div class="clear_product" data-id="${item.id}" >
+                            <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+
+                    <div class="cart_item_value">
+                        <h3>R$390.00</h3>
+                        <h3>R$${item.valor.toFixed(2)}</h3>
+                    </div>
+
+                    <div class="cart_item_quantity">
+                        <button class="quantity_btn decrease" data-id="${
+                          item.id
+                        }">-</button>
+                        <p class="quantity_value">${item.quantidade}</p>
+                        <button class="quantity_btn increase" data-id="${
+                          item.id
+                        }">+</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+        `;
+    });
+  }
+
+  document.querySelectorAll(".increase").forEach((btn) => {
+    btn.addEventListener("click", (event) => {
+      let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
+      items[itemId].quantidade++;
+      let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
+      cartItemsLocalStorage.forEach((i) => {
+        if (items[itemId].nome === i.nome) {
+          i.quantidade++;
+          i.valor += items[itemId].valor;
+        }
+      });
+      localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
+
+      updateCart();
+    });
+  });
+
+  document.querySelectorAll(".decrease").forEach((btn) => {
+    btn.addEventListener("click", (event) => {
+      let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
+      items[itemId].quantidade--;
+      let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
+      cartItemsLocalStorage.forEach((i) => {
+        if (items[itemId].nome === i.nome) {
+          i.quantidade--;
+          i.valor -= items[itemId].valor;
+        }
+      });
+      localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
+      updateCart();
+    });
+  });
+
+  document.querySelectorAll(".clear_product").forEach((btn) => {
+    btn.addEventListener("click", (event) => {
+      let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
+      items[itemId].quantidade = 0;
+      let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
+      cartItemsLocalStorage = cartItemsLocalStorage.filter(
+        (i) => items[itemId].nome !== i.nome
+      );
+      localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
+      updateCart();
+    });
+  });
+
+  /* ADD CART */
 
   let links = document.getElementsByClassName("cart_add");
   for (let i = 0; i < links.length; i++) {
@@ -516,36 +746,37 @@ bootShop = () => {
       event.preventDefault();
       let key = this.getAttribute("key");
 
-      let nome = items[key].name;
+      let nome = items[key].nome;
       let valor = items[key].valor;
       let quantidade = items[key].quantidade;
       let img = items[key].img;
-      let itemExiste = false;
+      let id = items[key].id;
+
       let cartItemsLocalStorage =
         JSON.parse(localStorage.getItem("cart")) || [];
 
-      let newItem = {
-        nome: nome,
-        valor: valor,
-        quantidade: quantidade + 1,
-        img: img,
-      };
+      let itemExiste = cartItemsLocalStorage.find((item) => item.nome === nome);
 
-      cartItemsLocalStorage.forEach((i) => {
-        if (newItem.nome === i.nome) {
-          i.quantidade++;
-          i.valor += newItem.valor;
-          itemExiste = true;
-        }
-      });
+      if (itemExiste) {
+        itemExiste.quantidade++;
+        itemExiste.valor += valor;
+      }
 
       if (!itemExiste) {
+        newItem = {
+          nome: nome,
+          valor: valor,
+          quantidade: 1,
+          img: img,
+          id: id,
+        };
         cartItemsLocalStorage.push(newItem);
       }
 
       localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
 
       items[key].quantidade++;
+
       updateCart();
 
       var cartIcon = document.querySelector("#cart_icon i");
@@ -584,98 +815,6 @@ bootShop = () => {
 };
 
 /* UPDATE CART */
-
-updateCart = () => {
-  let cartItens = document.querySelector(".cart_itens");
-  let cartTotal = document.querySelector(".total_price");
-  let listaItens = JSON.parse(localStorage.getItem("cart")) || [];
-  let valorTotal = 0;
-
-  cartItens.innerHTML = "";
-  cartTotal.innerHTML = "";
-
-  items.map((val) => {
-    if (val.quantidade > 0) {
-      const checkoutBtn = document.getElementById("cart_checkout");
-      checkoutBtn.style.display = "block";
-      cartItens.innerHTML += `
-            <div class="cart_item" id="${val.id}">
-                <img src="${val.img}"></img>
-                <div class="cart_item_texts">
-                    
-
-                    <div class="cart_item_name">
-                        <h3>${val.name}</h3>
-                        <div class="clear_product" data-id="${val.id}" >
-                            <i class="fa-solid fa-x" style="color: #ffffff;"></i>
-                        </div>
-                    </div>
-
-                    <div class="cart_item_value">
-                        <h3>R$390.00</h3>
-                        <h3>R$${val.valor.toFixed(2)}</h3>
-                    </div>
-
-                    <div class="cart_item_quantity">
-                        <button class="quantity_btn decrease" data-id="${
-                          val.id
-                        }">-</button>
-                        <p class="quantity_value">${val.quantidade}</p>
-                        <button class="quantity_btn increase" data-id="${
-                          val.id
-                        }">+</button>
-                    </div>
-                </div>
-            </div>
-            <br>
-        `;
-    }
-    valorTotal += val.valor * val.quantidade;
-  });
-
-  document.querySelectorAll(".increase").forEach((btn) => {
-    btn.addEventListener("click", (event) => {
-      let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
-      items[itemId].quantidade++;
-      let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
-      cartItemsLocalStorage.forEach((i) => {
-        if (items[itemId].name === i.nome) {
-          i.quantidade++;
-          i.valor += items[itemId].valor;
-        }
-      });
-      localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
-
-      updateCart();
-    });
-  });
-
-  document.querySelectorAll(".decrease").forEach((btn) => {
-    btn.addEventListener("click", (event) => {
-      let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
-      items[itemId].quantidade--;
-      let cartItemsLocalStorage = JSON.parse(localStorage.getItem("cart"));
-      cartItemsLocalStorage.forEach((i) => {
-        if (items[itemId].name === i.nome) {
-          i.quantidade--;
-          i.valor -= items[itemId].valor;
-        }
-      });
-      localStorage.setItem("cart", JSON.stringify(cartItemsLocalStorage));
-      updateCart();
-    });
-  });
-
-  document.querySelectorAll(".clear_product").forEach((btn) => {
-    btn.addEventListener("click", (event) => {
-      let itemId = parseInt(event.currentTarget.getAttribute("data-id"));
-      items[itemId].quantidade = 0;
-      updateCart();
-    });
-  });
-
-  cartTotal.innerHTML += `<p>Subtotal <br> R$${valorTotal.toFixed(2)}</p>`;
-};
 
 bootShop();
 
@@ -831,7 +970,7 @@ function toggleSearch() {
   let inputValue = document.querySelector(".search_term").value.toLowerCase();
   let matchedItems = [];
   for (i = 0; i < items.length; i++) {
-    if (items[i].name.toLowerCase().includes(inputValue)) {
+    if (items[i].nome.toLowerCase().includes(inputValue)) {
       console.log(items[i]);
       matchedItems.push(items[i]);
     }
@@ -844,7 +983,7 @@ function toggleSearch() {
         <img src="${item.img}" class="product_img" data-hover-src="${
         item.img2
       }" />
-                <p>${item.name}</p>
+                <p>${item.nome}</p>
                 <div class= "product_vals">
                     <h3 class="reais">R$</h3>
                     <h3>${item.valor.toFixed(2)}</h3>
@@ -880,7 +1019,6 @@ function toggleSearch() {
       event.preventDefault();
       let key = this.getAttribute("key");
       items[key].quantidade++;
-      updateCart();
 
       var cartIcon = document.querySelector("#cart_icon i");
       cartIcon.classList.add("bounce");
@@ -940,7 +1078,7 @@ items.forEach((item) => {
   li.innerHTML = `
     <a href="#">
         <img src="${item.img}" width="50" alt="">
-        <span class="item_search_name">${item.name}</span>
+        <span class="item_search_nome">${item.nome}</span>
     </a>
     `;
   ul.appendChild(li);
@@ -964,17 +1102,17 @@ function filter() {
 
   filter = input.value.toLowerCase();
 
-  li = ul.getElementsByTagName("li");
+  li = ul.getElementsByTagNome("li");
 
   for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
+    a = li[i].getElementsByTagNome("a")[0];
     txtValue = a.textContent || a.innerText;
 
     if (txtValue.toLowerCase().indexOf(filter) > -1) {
       li[i].style.display = "";
       count++;
 
-      span = li[i].querySelector(".item_search_name");
+      span = li[i].querySelector(".item_search_nome");
 
       if (span) {
         span.innerHTML = txtValue.replace(new RegExp(filter, "gi"), (match) => {
