@@ -641,8 +641,12 @@ bootShop = () => {
 
   /* LOADED WINDOW */
 
-  window.onload = updateCart;
-  window.onload = loadCartFromLocalStorage;
+  if (typeof window !== "undefined") {
+    window.onload = function () {
+      updateCart();
+      loadCartFromLocalStorage();
+    };
+  }
 
   /* ADD TO CART */
 
