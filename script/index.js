@@ -643,7 +643,6 @@ bootShop = () => {
 
   if (typeof window !== "undefined") {
     window.onload = function () {
-      updateCart();
       loadCartFromLocalStorage();
     };
   }
