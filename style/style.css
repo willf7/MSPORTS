@@ -523,11 +523,7 @@ div i img {
     gap: .2rem;
     font-size: .850rem;
     margin-bottom: .5rem;
-}
-
-.cart_item_value> :first-child {
     color: #B0B3B8;
-    text-decoration: line-through;
 }
 
 .cart_item_quantity {

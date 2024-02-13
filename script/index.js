@@ -675,7 +675,6 @@ bootShop = () => {
                     </div>
 
                     <div class="cart_item_value">
-                        <h3>R$390.00</h3>
                         <h3>R$${item.valor.toFixed(2)}</h3>
                     </div>
 
