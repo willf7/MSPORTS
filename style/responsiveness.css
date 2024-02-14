@@ -274,6 +274,7 @@
     }
 
     .first_ul {
+        display: none;
         margin: 0;
     }
 
@@ -399,6 +400,11 @@
         padding: 5px 0;
     }
 
+    .first_ul {
+        display: none;
+        margin: 0;
+    }
+
     footer .row_div {
         flex-direction: column;
         margin-left: 8.1875rem;
@@ -438,6 +444,10 @@
         display: flex;
         justify-content: center;
         width: 17rem;
+    }
+
+    .first_ul {
+        display: none;
     }
 
     footer .row_div {
@@ -514,4 +524,7 @@
         height: 8rem;
     }
 
+    footer .row_div {
+        margin-left: 4.1875rem;
+    }
 }
