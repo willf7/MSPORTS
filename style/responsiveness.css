@@ -25,6 +25,11 @@
         width: 38rem;
     }
 
+    footer .row_div {
+        margin-left: 9.1875rem;
+        gap: 6rem;
+    }
+
 }
 
 @media (max-width: 879px) {
@@ -122,6 +127,10 @@
         display: none
     }
 
+    footer .row_div {
+        margin-left: 8.1875rem;
+        gap: 5rem;
+    }
 
 
 }
@@ -390,8 +399,10 @@
         padding: 5px 0;
     }
 
-    .first_ul {
-        display: none;
+    footer .row_div {
+        flex-direction: column;
+        margin-left: 8.1875rem;
+        gap: 3rem;
     }
 
 }
@@ -399,6 +410,11 @@
 @media (max-width: 620px) {
     .container_qualitys {
         display: none;
+    }
+
+    footer .row_div {
+        margin-left: 4.1875rem;
+        gap: 3rem;
     }
 }
 
@@ -424,6 +440,11 @@
         width: 17rem;
     }
 
+    footer .row_div {
+        flex-direction: column;
+        margin-left: 8.1875rem;
+        gap: 3rem;
+    }
 
 }
 
